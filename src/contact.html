@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio - Contact Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="/node_modules/dist/js/index.min.js"></script>
+
+</head>
+    <body class="bg-gray-100 font-sans leading-normal tracking-normal">
+        <!-- Header -->
+        <header class="bg-white ">
+            <nav class="p-4 bg-white shadow-md border-b ">
+
+
+                <!-- Flex container -->
+                <div class="grid grid-rows-1 grid-flow-col">
+
+                    <!-- Name -->
+                    <div>
+                        <a href="#" class="font-bold text-4xl text-left hover:text-darkGrayishBlue">
+                            <img src="../dist/img/github-mark/github-mark.svg" alt="Github Logo" href="#" class="inline-block h-8 w-8 mb-1 align-middle" />
+                            <a class="font-bold text-4xl text-left hover:text-darkGrayishBlue" href="">Tyler B. Terry</a><br>
+                            <p class="font-thin text-sm">tylerterry24@gmail.com</p>
+                        </a>
+                    </div>
+    
+
+                    <!-- Menu Items -->
+                    <div class=" text-black text-center space-x-4 pt-5 mr-36">
+                        <a href="index.html" class="hover:text-darkGrayishBlue">Home</a>
+                        <a>|</a>
+                        <a href="software.html" class="hover:text-darkGrayishBlue">Software Engineer</a>
+                        <a>|</a>
+                        <a href="model.html" class="hover:text-darkGrayishBlue">Model</a>
+                        <a>|</a>
+                        <a href="blog.html" class="hover:text-darkGrayishBlue">Blog</a>
+                        <a>|</a>
+                        <a href="contact.html" class="hover:text-darkGrayishBlue">Contact</a>
+                    </div>
+
+                    <!-- Button -->
+                    <div class=" text-black text-right space-x-4 pt-4">
+                        <a
+                        href="resumes.html"
+                        class="p-3 px-6 pt-3 text-white bg-black rounded-full baseline hover:bg-wYellowLight"
+                        >
+                            Resumes
+                        </a>
+                    </div>
+            
+            
+                    <!-- Hamburger Icon -->
+                    <button
+                    id="menu-btn"
+                    class="block hamburger md:hidden focus:outline-none"
+                    >
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                    </button>
+                </div>
+        
+            </nav>
+        </header>
+
+        <section>
+            <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+                <h2 class="mb-4 text-7xl tracking-tight font-extrabold text-center text-gray-900">Contact Me</h2>
+                <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Get in touch with me today to discuss potential job or freelance opportunities as I am ready to take on new challenges.</p>
+                <form action="#" class="space-y-8">
+                    <div>
+                        <label for="email" class="block mb-2 text-md font-bold text-gray-900">Your email</label>
+                        <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="email@adress.com" required>
+                    </div>
+                    <div>
+                        <label for="subject" class="block mb-2 text-md font-bold text-gray-900">Subject</label>
+                        <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="Enter subject..." required>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="message" class="block mb-2 text-md font-bold text-gray-900 ">Your message</label>
+                        <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+                    </div>
+                    <button type="submit" class="py-3 px-5 text-center text-white rounded-lg bg-black ">Send message</button>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
