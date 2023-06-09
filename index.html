@@ -1,107 +1,323 @@
 <!DOCTYPE html>
+
 <html>
-<head>
-	<title>Portfolio - Software Engineer & Model</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/dist/output.css" rel="stylesheet">
-    <script src="/node_modules/dist/js/index.min.js"></script>
 
-</head>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0.41, maximum-scale=1" />
+		<meta name="description" content="Tyler Terry portfolio">
+		<meta name="keywords" content="Tyler Terry, WMU">
 
-<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+  		<link rel="stylesheet" href="assets/css/styles.css">
+  		<link rel="icon" href="assets/img/letter-t.png">
+		<link rel="stylesheet" href="https://use.typekit.net/ufg7hqz.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
 
+		<title>Tyler Terry</title>
 
-    <!-- Header -->
-	<header class="bg-white ">
-		<nav class="p-4 bg-white shadow-md border-b ">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153644395-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
 
+		  gtag('config', 'UA-153644395-1');
+		</script>
+	</head>
 
-            <!-- Flex container -->
-            <div class="grid grid-rows-1 grid-flow-col">
+	<body>
+		<!--Navigation Bar-->
+		<div id="nav">
+			<a href="#home-section" class="nav-item right">TYLER TERRY</a>
+			<a href="#project-section" class="nav-item left">PROJECTS</a>
+			<a href="#education-section" class="nav-item left">EDUCATION</a>
+			<a href="#about-section" class="nav-item left">ABOUT</a>
+		</div>
 
-                <!-- Name -->
-                <div>
-                    <a href="#" class="font-bold text-4xl text-left hover:text-darkGrayishBlue">
-                        <img src="../dist/img/github-mark/github-mark.svg" alt="Github Logo" class="inline-block h-8 w-8 mb-1 align-middle" />
-                        Tyler B. Terry<br>
-                        <p class="font-thin text-sm">tylerterry24@gmail.com</p>
-                    </a>
-                </div>
-  
-
-                <!-- Menu Items -->
-                <div class=" text-black text-center space-x-4 pt-5 mr-36">
-                    <a href="index.php" class="hover:text-darkGrayishBlue">Home</a>
-                    <a>|</a>
-                    <a href="software.html" class="hover:text-darkGrayishBlue">Software Engineer</a>
-                    <a>|</a>
-                    <a href="blog.html" class="hover:text-darkGrayishBlue">Blog</a>
-                    <a>|</a>
-                    <a href="contact.html" class="hover:text-darkGrayishBlue">Contact</a>
-                </div>
-
-                <!-- Button -->
-                <div class=" text-black text-right space-x-4 pt-4">
-                    <a
-                    href="resumes.html"
-                    class="p-3 px-6 pt-3 text-white bg-black rounded-full baseline hover:bg-wYellowLight"
-                    >
-                        Resumes
-                    </a>
-                </div>
-        
-        
-                <!-- Hamburger Icon -->
-                <button
-                id="menu-btn"
-                class="block hamburger md:hidden focus:outline-none"
-                >
-                <span class="hamburger-top"></span>
-                <span class="hamburger-middle"></span>
-                <span class="hamburger-bottom"></span>
-                </button>
-            </div>
-    
-        </nav>
-	</header>
-
-	
-
-    <!-- Hero Section -->
-    <section>
-
-        <div class="container mx-auto mt-12">
-            <div class="flex justify-center">
-                <!-- Name & Profession -->
-                <div class="mt-32 mr-5 max-w-2xl">
-                    <h1 class="text-7xl font-bold tracking-tight mb-12">I'm Tyler Terry <br /><span class="text-blue-600">Software Engineer</span></h1>
-                    <p class="text-xl font-light tracking-tight text-left mb-12">Welcome to my software engineering portfolio. I am a highly skilled software engineer, currently seeking employment but open to freelance work. Browse my portfolio and contact me for any questions or job opportunities.</p>
-
-                </div>
-
-                <!-- Head Shot -->
-                <div class="">
-                    <img src="../public/img/13fe30c5e923469fe175fcc5a4de7894-sticker.png" alt="Head Shot" class="" />
-                </div>
-
-            </div>
-
-            <!-- Download Resume Button -->
-            <div class="ml-20">
-                <a
-                href="resumes.html"
-                class="p-3 px-6 pt-3 text-white bg-black rounded-full baseline hover:bg-blue-600"
-                >
-                    Download Resume
-                </a>
-            </div>
-        </div>
-
-
-    </section>
+		<div class="page-content">
+			
+			<!--Home Page-->
+			<section id="home-section">
+				<div class="container row">
+					<div class="container row" id="landing-container">
+						<img src="assets/img/me_cartoon.jpg" id="profile-icon">
+						<div class="container column" id="landing-text">
+							<h1 class="title">TYLER B. TERRY</h1>
+							<p id="app"></p>
+						</div>
+					</div>
+					<a href="#about-section" class="arrow"></a>
+				</div>
+			</section>
 
 
 
-</body>
+			<!-- About Section -->
+			<section class="container column" id="about-section">
+				<h1 class="subtitle">ABOUT ME!</h1>
+				<div class="container row" id="img-console">
+					<div id="console">
+						<span class="first-color">package</span>
+						<span class="fifth-color">aboutMe</span><span class="second-color">;</span>
+						<br><br>
+						<span class="first-color">public</span>
+						<span class="third-color">class</span>
+						<span class="fifth-color">Tyler</span>
+						<span class="first-color">extends</span>
+						<span class="fifth-color">human</span>
+						<span class="second-color">{</span>
+						<br>
+						<ul>
+							<span class="first-color">public</span>
+							<span class="fifth-color">Tyler</span><span class="second-color">() {</span>
+							<br>
+							<ul>
+								<span class="third-color">String</span>
+								<span class="second-color">fullName = </span>
+								<span class="fourth-color">"Tyler Terry"</span><span class="second-color">;</span>
+								<br>
+								<span class="third-color">String</span>
+								<span class="second-color">homeTown = </span>
+								<span class="fourth-color">"Novi, MI"</span><span class="second-color">;</span>
+								<br>
+								<span class="third-color">String</span>
+								<span class="second-color">school = </span>
+								<span class="fourth-color">"WMU"</span><span class="second-color">;</span>
+								<br>
+								<span class="third-color">int</span>
+								<span class="second-color">expGraduation = </span>
+								<span class="fourth-color">Aug 2022</span><span class="second-color">;</span>
+								<br>
+								<span class="third-color">Resume</span>
+								<span class="second-color">resume = </span>
+								<span class="first-color">new</span>
+								<span class="second-color">Resume(</span><span class="fourth-color">"</span><!-- 
+								--><span ><a href="assets/resume.pdf" class="fourth-color">pdf</a></span><!-- 
+								--><span class="fourth-color">"</span><span class="second-color">)</span><span class="second-color">;</span>
+								<br>
+								<span class="third-color">String[]</span>
+								<span class="second-color">hobbiesAndInterests = </span>
+								<span class="first-color">new</span>
+								<span class="third-color">String[]</span>
+								<span class="second-color">{</span>
+								<br>
+								<ul>
+									<span class="fourth-color">"weight training"</span><span class="second-color">,</span>
+									<br>
+									<span class="fourth-color">"team sports"</span><span class="second-color">,</span>
+									<br>
+									<span class="fourth-color">"meditation"</span><span class="second-color">,</span>
+									<br>
+									<span class="fourth-color">"reading"</span><span class="second-color">,</span>
+									<br>
+									<span class="fourth-color">"spanish"</span><span class="second-color">,</span>
+									<br>
+									<span class="fourth-color">"fashion"</span>
+									<br>
+								</ul>
+								<span class="second-color">}</span>
+								<br>
+							</ul>
+							<span class="second-color">}</span>
+							<br>
+							<span class="first-color">public static</span>
+							<span class="third-color">void</span>
+							<span class="fifth-color">contact</span><span class="second-color">() {</span>
+							<br>
+							<ul>
+								<span class="third-color">Email</span>
+								<span class="second-color">email = </span>
+								<span class="first-color">new</span>
+								<span class="second-color">Email(</span><span class="fourth-color">"tyler.b.terry@wmich.edu"</span><span class="second-color">)</span><span class="second-color">;</span>
+								<br>
+								<span class="third-color">String[]</span>
+								<span class="second-color">links = </span>
+								<span class="first-color">new</span>
+								<span class="third-color">String[]</span>
+								<span class="second-color">{</span>
+								<br>
+								<ul>
+									<span class="fourth-color"><a href="https://www.linkedin.com/in/tyler-terry/" class="fourth-color" target="_blank">LinkedIn</a></span><span class="second-color">,</span>
+									<br>
+									<span class="fourth-color"><a href="https://github.com/tylerterry23" class="fourth-color" target="_blank">Github</a></span><span class="second-color">,</span>
+									<br>
+									<span class="fourth-color"><a href="https://www.instagram.com/tylerterry_23/?hl=en" class="fourth-color" target="_blank">Instagram</a></span>
+									<br>
+								</ul>
+								<span class="second-color">}</span>
+							</ul>
+							<span class="second-color">}</span>
+							<br>
+						</ul>
+						<span class="second-color">}</span>
+					</div>
+					<img src="assets/img/me2.jpeg" id="about-img">
+				</div>
+			</section>
+
+
+			<!--Education Section-->
+			<section class="container column parallax" id="education-section">
+				<div class="container column" id="text">
+					<h1 class="subtitle">EDUCATION</h1>
+					<div class="container row" id="education-title">
+						<img src="assets/img/western_logo.png">
+						<div class="container column" id="school">
+							<h2>Western Michigan University</h2>
+							<h3>B.A. - Computer Science</h3>
+							<p>Expected Graduation: August 2023</p>
+						</div>
+					</div>
+					<div class="container column" id="coursework">
+						<h4>Relevant Coursework:</h4>
+						
+						<p>Computer Science:</p>
+						<ul>
+						  <li>Computer Science I (CS 1110)</li>
+						  <li>Computer Science II (CS 1120)</li>
+						  <li>Digital Logic (ECE 2500)</li>
+						  <li>Foundations of Computer Science (CS 1310)</li>
+						  <li>Data & File Structures (CS 3310)</li>
+						  <li>Operating Systems (CS 5541)</li>
+						  <li>Software Systems Development I: Requirements & Design (CS 4900)</li>
+						  <li>Software Systems Development II: Implementation, Testing (CS 4910)</li>
+						  <li>Computer Organization & Assembly Language (CS 2230)</li>
+						  <li>Data Analysis Using R (STAT 2600)</li>
+						  <li>Introduction to Web Technologies (CS 3500)</li>
+						  <li>Database Management Systems (CS 4430)</li>
+						</ul>
+						
+						<p>Communication:</p>
+						<ul>
+						  <li>Technical Communication (ENGL 1050)</li>
+						  <li>Public Speaking (COM 1040)</li>
+						  <li>Interpersonal Communication I (COM 1700)</li>
+						</ul>
+						
+						<p>Mathematics:</p>
+						<ul>
+						  <li>Algebra I (MATH 1100)</li>
+						  <li>Algebra II (MATH 1110)</li>
+						  <li>Precalculus (MATH 1180)</li>
+						  <li>Calculus I (MATH 1220)</li>
+						  <li>Elementary Linear Algebra (MATH 2300)</li>
+						</ul>
+						
+						<p>Other:</p>
+						<ul>
+						  <li>Deductive Logic (PHIL 2250)</li>
+						  <li>Ethics In Engineering &amp; Tech (PHIL 3160)</li>
+						  <li>Business Enterprise (BUS 1750)</li>
+						  <li>Energy And The Environment (PHYS 1020)</li>
+						</ul>
+						<p id="progress">*in progress</p>
+					</div>
+					  
+						
+				</div>
+			</section>
+
+			<!--Project Section-->
+			<section class="container column" id="project-section">
+				<h1 class="subtitle">PROJECTS</h1>
+
+				<!--Filter Buttons-->
+				<div class="contianer row" id="button-section">
+					<button class="filter-button active" onclick="filterSelection('all')">All</button>
+					<button class="filter-button" onclick="filterSelection('python')">Python</button>
+					<button class="filter-button" onclick="filterSelection('web')">Web Development</button>
+				</div>
+
+				<!--Individual Projects-->
+				<div class="container row" id="project-container">
+
+					
+					<div class="each-project python">
+						<img class="proj-img" src="assets/img/snake.jpg"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+								<h2>GitHub Trending Scraping</h2>
+								<p>This script uses web scraping to extract information about the top trending repositories on GitHub. Details such as name, URL, description, programming language, stars, and forks.</p>
+								<br>
+								<i>Python, BeautifulSoup, requests</i>
+							</div>
+						</div>
+					</div>
+
+					<div class="each-project web dev">
+					  <img class="proj-img" src="assets/img/workout.jpg"/>
+					  <div class="proj-description container column">
+					  	<div class="img-description">
+							<h2>Muscle Mate</h2>
+							<p>Combining fitness and nutrition tracking, <b>data visualization</b>, and <b>social platform</b> functionalities, focusing on <b>robust database</b> models and an engaging user interface.</p>
+							<br>
+							<i>Django, MySQL, CSS, HTML, Tailwind, Javascript</i>
+						</div>
+					  </div>
+					</div>
+
+
+					<div class="each-project python">
+					  <img class="proj-img" src="assets/img/House.png"/>
+					  <div class="proj-description container column">
+					  	<div class="img-description">
+							<h2>Housing Prices</h2>
+							<p>This script creates and compares two different <b>machine learning</b> models: <b>Linear Regression</b> and <b>Random Forest</b>. The goal is to predict house prices using the Boston Housing dataset.</p>
+							<br>
+							<i>Python, pandas, numpy, sklearn</i>
+						</div>
+					  </div>
+					</div>
+
+					<div class="each-project web dev">
+					  <img class="proj-img" src="assets/img/type.jpg"/>
+					  <div class="proj-description container column">
+					  	<div class="img-description">
+							<h2>Yelp-like Application</h2>
+							<p>Developed a <b>full-stack</b> This app handles complex database structures, <b>user authentication</b>, and frontend interaction. Also <b>guards against common exploits</b> like SQL-Injection and XSS.</p>
+							<br>
+							<i>Node.js, Express, MongoDB, HTML, CSS, JavaScript</i>
+						</div>
+					  </div>
+					</div>
+
+					<div class="each-project web">
+					  <img class="proj-img" src="assets/img/Website.png"/>
+					  <div class="proj-description container column">
+					  	<div class="img-description">
+							<h2>Personal Website</h2>
+							<p>Happy to have you here!</p>
+							<br>
+							<i>HTML, CSS, JavaScript</i>
+						</div>
+					  </div>
+					</div>
+
+
+				</div>
+			</section>
+
+
+			<!--Footer/Contact-->
+			<section class="container column" id="footer">
+				<div class="container row" id="social-container">
+					<a href="https://www.linkedin.com/in/tyler-terry/" target="_blank">LinkedIn</a>
+					<span>•</span>
+					<a href="https://github.com/tylerterry23" target="_blank">Github</a>
+					<span>•</span>
+					<a href="https://www.instagram.com/tylerterry_23/?hl=en" target="_blank">Instagram</a>
+					<span>•</span>
+					<a href="mailto:tyler.b.terry@wmich.edu" target="_blank">Email</a>
+				</div>
+				<div>
+					<p id="copyright">Tyler Terry 2022</p>
+				</div>
+			</section>
+			
+		</div>
+		<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+		<script src="assets/scripts/scripts.js"></script>
+
+	</body>
 </html>
