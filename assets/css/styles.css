@@ -111,8 +111,6 @@ a:hover {
 	align-items: center; 
 	justify-content: center;
 	flex-wrap: wrap;
-
-	/* iphone debug testing */
 	align-content: column; 
 }
 
@@ -446,7 +444,14 @@ ul {
 
 
 
-
+@media screen and (max-width: 768px) {
+	.arrow {
+	  display: block; 
+	  margin: 10px auto; 
+	  padding: 5px; 
+	}
+}
+  
 
 
 
