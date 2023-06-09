@@ -111,7 +111,9 @@ a:hover {
 	align-items: center; 
 	justify-content: center;
 	flex-wrap: wrap;
-	align-content: center;
+
+	/* iphone debug testing */
+	align-content: column; 
 }
 
 
