@@ -405,6 +405,11 @@ ul {
 	line-height: 24px;
 }
 
+.img-description a {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
 .img-description i {
 	font-size: 12px;
 }
